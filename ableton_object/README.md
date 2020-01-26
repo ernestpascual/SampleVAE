@@ -9,6 +9,9 @@ You can test your wav file for making new sample!
 ```
   python main.py
 ```
+It might need to allow the permission of `_pytransform.dylib` in mac os.
+In that case, please give the permission from `System Preferences > Security & Privacy > Allow Anyway`.
+
 
 2. put `SampleVAE.amxd` into the your ableton live project.
    you can drop your wav file and you can change the variation parametar.
@@ -16,3 +19,4 @@ You can test your wav file for making new sample!
 
 ## Requirement
 - python-osc
+- pyarmor
